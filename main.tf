@@ -1,7 +1,8 @@
 provider "aws" {
         region = "eu-west-2"
-        access_key = "AKIASLIUIFHMXLJGE56Q"
-        secret_key = "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"
+        #IAM T_user 
+        access_key = "access_key" 
+        secret_key = "secret_key"
 }
 resource "aws_instance" "Terraform" {
  ami            = "ami-0a669382ea0feb73a"
