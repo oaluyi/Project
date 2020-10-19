@@ -9,6 +9,7 @@ resource "aws_instance" "Terraform" {
  instance_type  = "t2.micro"
  key_name       = "devops"
  subnet_id      = "subnet-8daee3e4"
+ 
  user_data = <<- EOF
   #!/bin/bash
   echo "Welcome to DevOps"
